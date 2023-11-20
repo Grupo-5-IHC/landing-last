@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.Inicioa {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(bg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00000071; /* Agrega un fondo blanco o el color que desees */
+    z-index: 1000; /* Asegura que el encabezado esté en la capa superior */
+}
+header .logo{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight:800;
+    letter-spacing: 1px;
+}
+header .navbar a {
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding:2px 15px;
+    border-radius: 20px;
+}
+header .navbar a:not(:last-child){
+    margin-right: 30px;
+}
+header .navbar a:hover{
+    background: black;
+}
+.media-icons{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.media-icons a{
+    position: relative;
+    color: #806491;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property:transform;
+}
+.media-icons a:not(:last-child){
+    margin-right:15px;
+}
+.media-icons a:hover{
+    transform: scale(1.5);
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 650px;
+    margin: 60px 300px;
+}
+.imgF1{
+    padding-left: 40%;
+    padding-top: 0%;
+}
+.content .info h2{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.content .info p{
+    color: white;
+    margin-bottom: 40px;
+}
+.content .info .Download-button{
+    color: black;
+    background: #806491;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius:40px;
+}
+/*Anderson*/
+.h1Z{
+    text-align: left;
+    color:#fff;
+    padding: 50px;
+    font-size: 50px;
+    padding-bottom: 3%;
+}
+.SobreNosotros {
+    background: black;
+    height: 100vh; 
+}
+.divSob{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.imga{
+    padding-bottom: 0%;
+    padding-top: 4%;
+}
+.parasob {
+    color: #fff;
+    padding-left: 4%;
+    padding-right: 15%;
+    padding-bottom: 0%;
+  }
+.parasoba{
+    color: #fff;
+    padding-left: 4%;
+    padding-right: 15%;
+    padding-bottom: 18%;
+  }
+/*Fin Anderson*/
+/*Jeremi*/  
+.h2Z{
+    text-align: center;
+    color:#fff;
+    padding: 50px;
+    font-size: 50px;
+    padding-bottom: 3%;
+}
+.parapr{
+    color: #fff;
+    text-align: left;   
+    padding-bottom: 90px;
+    font-size: 26px;
+    letter-spacing: 1px; 
+  }
+.h3P{
+    
+    text-align: center;
+    color:#fff;
+    padding: 0px;
+    font-size: 35px; 
+    padding-top: 0px;   
+    padding-bottom: 10%;    
+}
+.h3Precios{
+    
+    text-align: center;
+    color:#fff;
+    padding: 0px;
+    font-size: 35px; 
+    padding-top: 0px;   
+    padding-bottom: 15%;    
+}
+
+.Precios{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(bg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.SubPr{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    grid-gap: 2rem;
+}
+.boxS{
+    
+    padding: 2rem 2rem;
+    margin: 5px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 620px;
+}
+/*Fin Jeremi*/
+
+/*Rudy */
+.pR{
+    font-size: 20px;
+}
+.contactenos{
+    padding: 3rem 0;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #383737;
+    background-size: cover;
+    background-position: center;
+}
+
+.subcontac h2{
+    color: white;
+    text-align: center;
+    
+}
+
+.subcontac p{
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.webs{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.pag{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgba(0, 0, 0, 0.06);
+}
+.h2R {
+    font-size: 60px; 
+}
+.pads{
+    font-size: 20px; 
+}
+.pag img{
+    width: 20%;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin: 10px 0;
+}
+
+h3{
+    color: white;
+    margin: 10px 0;
+}
+.Formucont{
+    background-color: #222; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+
+
+/*tercera parte*/
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color:#181717;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    border: 2px solid #7c7c7c;
+    border-radius: 8px;
+}
+.container h2{
+    text-align: center;
+    color: white;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 95%;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/*rudyfin*/
+/*Inicio Naomy*/
+.Aplicacion{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(bg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.h1App{
+    text-align: center;
+    color: #fff;
+    padding-top: 2%;
+    font-size: 40px;
+}
+.papp{
+    padding-top: 2%;
+    text-align: center;
+    color: #fff;
+}
+.Aflex-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 2%;
+    padding: 3%;
+}
+.section-container{
+    
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.divCA{
+    padding: 0%;
+    padding-left: 30%;
+}
+.sectioncontainerA{
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    padding: 4%;
+    padding-left: 2%;
+}
+/*Fin Naomy*/
+
+/*Footer*/
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
